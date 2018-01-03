@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+
+
+        .heard1 {
+            width: 50%;
+            height: 5em;
+            position: absolute;
+        }
+
+        .heard2 {
+            width: 100%;
+            height: 5em;
+
+        }
+
+        table {
+            width: 100%;
+            height: 3em;
+            background: lightgray;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        td:hover {
+            background: black;
+            color: white;
+            cursor: pointer;
+        }
+
+        form {
+
+            text-align: right;
+            line-height: 5em;
+
+        }
+
+        .heard3 {
+            width: 100px;
+            height: 500px;
+            margin-left: 10px;
+            position: absolute;
+
+        }
+
+        p {
+            margin-left: 15px;
+        }
+
+        .her {
+            width: 30px;
+            height: 500px;
+            margin-left: 100px;
+            position: absolute;
+        }
+
+        .her2 {
+            width: 60%;
+            margin-left: 20%;
+            position: absolute;
+        }
+
+        .heard4 {
+            width: 100%;
+            height: 500px;
+            text-align: center;
+            position: absolute;
+
+        }
+
+        .heard5 {
+            width: 97%;
+            height: 500px;
+            text-align: right;
+            margin-right: 15px;
+            position: absolute;
+
+        }
+
+        .her3 {
+            width: 178%;
+            text-align: right;
+
+            position: absolute;
+        }
+
+        .heard6 {
+            width: 28%;
+            height: 170px;
+            text-align: right;
+            line-height: 170px;
+        }
+    </style>
+</head>
+<body>
+<div class="heard1">
+    <img src="./../photo/qwe.png" alt="照片加载中">
+</div>
+<div class="heard2">
+    <form action="www.baidu.com">
+        <input type="text" name="gg" id="GG">
+        <input type="submit" value="搜索">
+    </form>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>HTML/CSS</td>
+            <td>JAVASCRIPT</td>
+            <td>SERVERSIDE</td>
+            <td>ASP.NET</td>
+            <td>XML</td>
+            <td>WEB SERVICE</td>
+            <td>WEB BUILDING</td>
+        </tr>
+    </table>
+</div>
+
+<div class="heard3">
+    <h3>HTML 教程</h3>
+    <p>HTML</p>
+    <p>HTML5</p>
+    <p>XHTML</p>
+    <p>CSS</p>
+    <p>CSS3</p>
+    <p>TCP/IP</p>
+    <h3>浏览器脚本</h3>
+    <p>javascript</p>
+    <p>HTML DOM</p>
+    <p>jQuery</p>
+    <p>iQuery Mobile</p>
+    <p>AJAX</p>
+    <p>JSON</p>
+    <p>E4X</p>
+    <p>DHTML</p>
+    <h3>服务器脚本</h3>
+    <p>PHP</>
+    <p>SQL</p>
+    <p>ASP</p>
+    <p>ADO</p>
+    <p>VBScript</p>
+
+
+</div>
+<div class="her">
+    <hr size="888" width="1">
+</div>
+<div class="heard4">
+    <h3>领先的 Web 技术教程 - 全部免费</h3>
+    <p>在 w3school，你可以找到你所需要的所有的网站建设教程。</p>
+    <p>从基础的 HTML 到 CSS，乃至进阶的 XML、SQL、JS、PHP 和 ASP.NET。</p>
+    <h4>从左侧的菜单选择你需要的教程！</h4>
+    <hr class="her2" style="height:1px;border:none;border-top:1px solid #555555;"/>
+    <br>
+    <h3>完整的网站技术参考手册</h3>
+    <p>我们的参考手册涵盖了网站技术的方方面面。</p>
+    <p>其中包括W3C标准技术：HTML、CSS、XML 。以及其他技术，诸如 JavaScript、PHP、SQL 等。</p>
+    <hr class="her2" style="height:1px;border:none;border-top:1px solid #555555;"/>
+    <br>
+    <h3>在线实例测试工具</h3>
+    <p>在 w3school，我们提供上千个实例</p>
+    <p>通过使用我们的在线编辑器，你可以编辑这些例子，并对代码进行实验。</p>
+    <hr class="her2" style="height:1px;border:none;border-top:1px solid #555555;"/>
+    <br>
+    <h3>快捷易懂的学习方式</h3>
+    <p>一寸光阴一寸金，因此，我们为您提供快捷易懂的学习内容。</p>
+    <p>在这里，您可以通过一种易懂的便利的模式获得您需要的任何知识。</p>
+    <hr class="her2" style="height:1px;border:none;border-top:1px solid #555555;"/>
+    <br>
+    <h3>从何入手？</h3>
+    <p>什么是一个Web建设者需要学习的知识呢？</p>
+    <p>W3School将为您回答这个问题，在您成为专业 Web 开发者的路上助一臂之力。</p>
+    <p>如果您是初学者，请您阅读《网站构建初级教程》。</p>
+    <p>如果您是开发者，请您阅读《网站构建高级教程》。</p>
+    <hr class="her2" style="height:1px;border:none;border-top:1px solid #555555;"/>
+
+</div>
+<div class="heard5">
+    <h3>参考手册</h3>
+    <p><a href="www.baidu.com">HTML5标签</a></p>
+    <p>HTML颜色</p>
+    <p>css123</p>
+    <p>javascript</p>
+    <p>htmldom</p>
+    <p>jquery</p>
+    <p>vbscript</p>
+    <p>asp</p>
+    <p>ado</p>
+    <p>asp.net</p>
+    <p>php5.1</p>
+    <p>xmldom</p>
+    <p>xsltdom</p>
+    <p>xslt1.0</p>
+    <p>wml1.1</p>
+    <p>xsl</p>
+    <p>w3c术语表</p>
+    <h3>字符集</h3>
+    <p>HTML字符集</p>
+    <p>HTMLasciip</p>
+    <p>HTML符号</p>
+    <p>HTMLIso</p>
+
+</div>
+
+<div class="her3">
+    <hr size="888" width="1">
+</div>
+<div class="heard6">
+    <img src="./../photo/clock.png" alt="加载中">
+</div>
+<div class="heard6">
+    <img src="./../photo/clock.png" alt="加载中">
+</div>
+<div class="heard6">
+    <img src="./../photo/clock.png" alt="加载中">
+</div>
+<div class="heard6">
+    <img src="./../photo/clock.png" alt="加载中">
+</div>
+<div class="heard6">
+    <img src="./../photo/clock.png" alt="加载中">
+</div>
+
+
+</body>
+</html>
